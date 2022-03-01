@@ -1,0 +1,10 @@
+#!name=什么值得买
+#!desc=什么值得买每日自动签到
+#!system=ios
+
+[Script]
+电信营业厅签到 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,timeout=120,type=cron,cronexp=10 0 0 * * *
+电信营业厅重写 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/jt-sign\/api\/home\/homeInfo,script-path=hhttps://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=1
+
+[MITM]
+wapside.189.cn:9001
