@@ -7,4 +7,4 @@
 电信营业厅重写 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/jt-sign\/api\/home\/homeInfo,script-path=hhttps://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=1
 
 [MITM]
-wapside.189.cn:9001
+wapside.189.cn
