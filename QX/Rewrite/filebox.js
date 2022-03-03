@@ -1,4 +1,4 @@
-
+[rewrite_local]
 # ～ filebox解锁会员权限
 ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/NoEggEgg/NoEggEgg/master/QX/Rewrite/filebox.js
 ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/NoEggEgg/NoEggEgg/master/QX/Rewrite/filebox.js
