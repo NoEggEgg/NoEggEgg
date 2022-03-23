@@ -1,5 +1,3 @@
-# https://raw.githubusercontent.com/NoEggEgg/NoEggEgg/master/Surge/Covid19.js
-
 var list = ["中国","福建","福州","泉州","莆田"];
 const url = "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5";
 var ala="";
